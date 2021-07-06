@@ -1,0 +1,467 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/*css for headre*/
+
+.header{
+    height:90px;
+    width: 100%;
+    /* background-color:rgba(16,128,234,1); */
+    display:flex; 
+    justify-content:center;
+    position: fixed;
+}
+
+.container{
+    width:90%;
+    display:flex;    
+    /* background-color: red; */
+    
+}
+
+.header_container{
+    justify-content:space-between;
+}
+
+.logo{
+    height:90px;
+    width:15%;
+    /* background-color:yellow; */
+    font-size:40px;
+    font-family:segoe UI;
+    text-align:center;
+    font-weight:bold;
+    line-height: 90px;
+    color:white;
+
+}
+
+.nav{
+    height:90px;
+    width:35%;
+    /* background-color:green; */
+    display:flex;
+    /* font-size: 15px; */
+    
+}
+
+
+
+.nav-item{
+    width:35%;
+    height:60px;
+    /* background-color: gray; */
+    font-family: segoe UI;
+    text-align: center;
+    line-height: 50px;
+    cursor:pointer;
+    color:white;
+    transition: .4s;
+    font-size: 20px;
+}
+
+.nav-item:hover{
+    background-color: white;
+    color: rgba(16,128,234,1);
+}
+
+.banner{
+    height: 95vh;
+    width: 100%;
+    background-color: gray;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/5905436/pexels-photo-5905436.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+}
+
+.overlay{
+    height: 95vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+
+.banner_text{
+    height: 300px;
+    width: 50%;
+    background-color: rgba(16, 128, 234, 0.7);
+    font-family: segoe UI;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+
+.banner_title{
+    font-size: 50px;
+    margin-bottom: 15px;
+    align-content: center;
+    
+}
+
+.banner_dsc{
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.padd{
+    padding: 50px;
+    /* background-color: red; */
+}
+
+.banner_btn{
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border:3px solid white;
+    cursor: pointer;
+    transition: .4s;
+    
+}
+
+.banner_btn:hover{
+    background-color: white;
+    color: rgba(16, 128, 234, 1);
+}
+
+/* css for services  */
+
+.services{
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: segoe UI;
+}
+
+.services_Container{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service{
+    height: 400px;
+    width: 47%;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.service_img{
+    width: 40%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    overflow: hidden;
+}
+
+.service_details{
+    width: 60%;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+
+.service_padd{
+    padding: 20px;
+}
+
+
+.service_btn{
+
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(16, 128, 234, 1);
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border:none;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.service_title{
+    margin-bottom: 15px;
+}
+
+.service_dsc{
+    margin-bottom: 30px;
+}
+
+/* css for about */
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    font-family: segoe UI;
+    align-items: center;
+}
+
+.about_container{
+    margin-top:30px ;
+    /* background-color:red ; */
+    line-height: 30px;
+    display: inline;
+}
+.start_text{
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+}
+/* css for highlight */
+
+.highlight{
+     padding-top: 50px;
+     padding-bottom: 50px;
+     width: 100%;
+     background-color: rgba(16, 128, 234, 1);
+     display: flex;
+     justify-content: center;
+}
+.highlight_container{
+    justify-content: space-between;
+}
+
+.high_ele{
+    width:22%;
+    height: 230px;
+    background-color: rgba(0,0,0,.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: segoe UI;
+    text-align: center;
+    color: white;
+
+
+}
+
+.high_title{
+    font-size: 60px;
+}
+
+.high_dcs{
+    font-size: 25px;
+}
+
+/* css for quote */
+.quote{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+}
+.quote_container{
+    flex-direction: column;
+
+}
+
+.quote_title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.quote_btn{
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(44, 74, 102,1);
+    color:white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border:none;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.quote_btn:hover{
+    background-color: white;
+    color: blue;
+    border: 3px solid blue;
+    
+}
+
+/* css for portfolio */
+.portfolio{
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* background-color: gray; */
+    font-family: segoe UI;
+}
+
+.portfolio_container{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project{
+    width: 25%;
+    height: 400px;
+    background-color: red;
+    display: flex;
+    overflow: hidden;
+}
+
+.project_1{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.AKT65TlFKfP79pwuUHDn-QHaFi&pid=Api&P=0&w=222&h=167');
+    background-size: cover;
+}
+
+.project_2{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.iUvGS1N77KA4iDJHuhJyowHaGl&pid=Api&P=0&w=176&h=157');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_3{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.Wsm0It1U2kGs2sFswT4ogAFNC7&pid=Api&P=0&w=311&h=176');
+    background-size: cover;
+}
+
+.project_4{
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.IILhG9sntXNSgY8eKeNNzAAAAA&pid=Api&P=0&w=300&h=300');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_5{
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.cgMB9ZlvbIG8U6epWc1BQwAAAA&pid=Api&P=0&w=200&h=150');
+    background-size: cover;
+}
+
+.project_6{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.-h37unfw4U8Fz14M7cwb0QHaD2&pid=Api&P=0&w=339&h=176');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_7{
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.mdc1pvOcpYCsWwTJJx3_GAHaG2&pid=Api&P=0&w=195&h=182');
+    background-size: cover;
+}
+
+.project_8{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.7pYizRNXPqckEXz6hKJxEwHaHa&pid=Api&P=0&w=300&h=300');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_title{
+    color: white;
+    width: 100%;
+    height: 150px;
+    text-indent: 150px;
+    line-height: 200px;
+    background-color:rgba(16, 128, 234, 0.7);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.project_title:hover{
+    height: 400px;
+    /* background-color: transparent; */
+}
+
+/* css for footer */
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer_child{
+    height: 300px;
+    width:25%;
+    /* background-color: gray; */
+    font-family: segoe UI;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer_child_1{
+    align-items: center;
+    color:white;
+    font-size: 30px;
+}
+
+ul{
+    margin-top: 40px;
+    font-size: 14px;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.first{
+    font-size: 29px;
+}
+
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_container{
+    width: 60%;
+     justify-content: space-between;
+}
+
+.social_icon{
+    height: 50px;
+    width: 50px;
+    /* background-color: white; */
+    background-size: cover;
+}
+
+.si1{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-256.png');
+}
+
+.si2{
+    background-image: url('https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png');
+}
+
+.si3{
+    background-image: url('https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/google-256.png');
+}
+
+.si4{
+    background-image: url('https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-03-256.png');
+}
