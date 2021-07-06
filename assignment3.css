@@ -1,0 +1,44 @@
+.father{
+    height: 170px;
+    width: 100%;
+    background-color: gray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.daughter{
+    height: 125px;
+    width: 15%;
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+    font-family: segoe UI;    
+}
+
+.df{
+    text-align: center;
+}
+
+.mother{
+    height: 170px;
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+
+.son{
+    height: 125px;
+    width: 20%;
+    background-color: gray;
+    display: inline-block;
+    margin-left: 3.7%;
+    margin-bottom:5%;
+    margin-top: 2.5%;    
+    text-align: center;
+    font-size: 20px;
+    font-family: segoe UI;
+      
+}
